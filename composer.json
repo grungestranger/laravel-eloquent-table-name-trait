@@ -1,0 +1,28 @@
+{
+    "name": "grungestranger/laravel-eloquent-table-name-trait",
+    "description": "Eloquent trait to get the names of tables of your models",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "eloquent",
+        "table",
+        "name",
+        "trait"
+    ],
+    "authors": [
+        {
+            "name": "grungestranger",
+            "email": "grungestranger@yandex.ru",
+            "homepage": "https://github.com/grungestranger"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/framework": "4.2.*|5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|5.8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Grungestranger\\TableName\\": "src/"
+        }
+    }
+}
