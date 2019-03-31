@@ -12,7 +12,7 @@ Provides an Eloquent trait to get the names of tables of your models.
 Require this package with composer
 
 ````
-composer grungestranger/laravel-eloquent-table-name-trait
+composer require grungestranger/laravel-eloquent-table-name-trait
 ````
 
 Load the trait in your Model.
