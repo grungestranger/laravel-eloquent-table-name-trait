@@ -1,13 +1,15 @@
 {
     "name": "grungestranger/laravel-eloquent-table-name-trait",
-    "description": "Eloquent trait to get the names of tables of your models",
+    "description": "Eloquent trait to get the names of tables of your models statically.",
     "license": "MIT",
     "keywords": [
         "laravel",
         "eloquent",
         "table",
         "name",
-        "trait"
+        "trait",
+        "static",
+        "method"
     ],
     "authors": [
         {

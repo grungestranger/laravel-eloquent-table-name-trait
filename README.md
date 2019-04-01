@@ -1,6 +1,6 @@
 # grungestranger/laravel-eloquent-table-name-trait
 
-Provides an Eloquent trait to get the names of tables of your models.
+Provides an Eloquent trait to get the names of tables of your models statically.
 
 ## Requirements
 
@@ -26,7 +26,7 @@ class Example extends Model {
 }
 ```
 
-To get the name of the table, use the getTableName method:
+To get the name of the table, use the static getTableName method:
 
 ```php
 Example::getTableName();
