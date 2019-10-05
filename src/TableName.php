@@ -19,7 +19,9 @@ trait TableName
     public static function getTableName(): string
     {
         if (!static::$tableName) {
-        	static::$tableName = (new static())->getTable();
+            $model = new static();
+
+            static::$tableName = $model->getConnection()->getDatabaseName() . '.' . $model->getTable();
         }
 
         return static::$tableName;
