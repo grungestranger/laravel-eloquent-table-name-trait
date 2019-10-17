@@ -5,7 +5,7 @@ Provides an Eloquent trait to get the names of tables of your models statically.
 ## Requirements
 
 * This package requires PHP 7.1+
-* It works with Laravel 4.2, 5.x.
+* It works with Laravel >=4.2
 
 ## Installation
 
